@@ -108,7 +108,7 @@ Configure the rendering environment, which can have the following values:
 
 -   `EnableAlphaToCoverage`：An order-independent rendering method for translucent objects. This switch is only useful in environments that support MSAA. When enabled, the edges of objects will be more accurately softened and transitioned according to the transparency. It can also be used for some complex scenes with a large number of meshes overlapping.
 
--   `Wireframe`： Draw wireframe mode
+-   `Wireframe`： Draw wireframe mode (Deprecated)
 
 -   `Blending`: Enables color blending mode, often used to render translucent objects. After declaring this, it is usually necessary to declare the blending factor blendSrc, blendDst
 
@@ -116,7 +116,7 @@ Configure the rendering environment, which can have the following values:
 
 -   `DisableAlphaWrite`： Do not write transparency alpha values to the color buffer, allow RGB values to be written
 
--   `DisableRGBWrite`： Do not write transparency RGB values to the color buffer, allow writing alpha values
+-   `DisableRGBWrite`： Do not write transparency RGB values to the color buffer, allow writing alpha values (Deprecated)
 
 -   `DisableDepthTest`： Turn off depth testing
 
